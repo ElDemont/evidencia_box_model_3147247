@@ -1,0 +1,75 @@
+/*selector de css
+   se determina con punto (.)
+   todas las etiquetas con esas clase
+   tendran el mismo estilo
+*/
+/*modelo de caja
+contenido: texto, imagenes, videos, svg, etc
+en una caja debe haber contenido 
+o de tener alto y ancho
+padding:capa entre el contenido y el relleno
+*/
+.box1 {
+    /*propiedades width(ancho) heigth(alto)
+     aplica solo a la capa de contenido
+     top(arriba) right(derecha) left(izquierda) bottom(abajo)*/
+background-color: rgb(66, 4, 95);
+width: 50%;
+height: 200px;
+padding: 50px;
+padding-top: 100px;
+padding-right: 30px;
+padding-left: 50px;
+padding-bottom: 10px;
+border-style: ridge double;
+border-color: rgb(4, 0, 255);
+border-width: 10px;
+border-radius: 10px;
+display: block;
+}
+
+.box2{
+    /*el padding va en sentido de las manecillas del relog*/
+background-color: blue;
+border-radius: 5px;
+width: 50%;
+height: 100px;
+padding: 10px 40px 100px 20px;
+border: ridge darkcyan 10px;
+display: block;
+}
+
+/*estilo de identificador 
+se denota con #(numeral)
+solo aplica un elemento en todo el documento*/
+
+.box3{
+padding: 0px 20px 20px 20px;
+background-color: blueviolet;
+width: 50%;
+height: 100px;
+border-top:fuchsia 20px double ;
+border-bottom: blue 15px ridge;
+border-left: solid black 10px;
+border-right: 5px gray ridge;
+display: block;
+}
+
+.box4{
+    background-color: brown;
+    width: 50%;
+    height: 50px;
+    border-top-color: blueviolet;
+    border-top-style: double;
+    border-top-width: 20px;
+    border-left-color: blueviolet;
+    border-left-style: double;
+    border-left-width: 20px;
+    border-bottom-color:blueviolet ;
+    border-bottom-style: double;
+    border-bottom-width: 20px;
+    border-right-color: blueviolet;
+    border-right-style: double;
+    border-right-width: 20px;
+    display: block;
+}
