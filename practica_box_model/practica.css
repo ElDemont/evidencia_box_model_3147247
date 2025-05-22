@@ -37,6 +37,7 @@ height: 100px;
 padding: 10px 40px 100px 20px;
 border: ridge darkcyan 10px;
 display: block;
+margin: 15px;
 }
 
 /*estilo de identificador 
@@ -53,6 +54,7 @@ border-bottom: blue 15px ridge;
 border-left: solid black 10px;
 border-right: 5px gray ridge;
 display: block;
+margin: 15px;
 }
 
 .box4{
@@ -63,13 +65,14 @@ display: block;
     border-top-style: double;
     border-top-width: 20px;
     border-left-color: blueviolet;
-    border-left-style: double;
+    border-left-style: ridge;
     border-left-width: 20px;
     border-bottom-color:blueviolet ;
     border-bottom-style: double;
     border-bottom-width: 20px;
     border-right-color: blueviolet;
-    border-right-style: double;
+    border-right-style: ridge;
     border-right-width: 20px;
     display: block;
+    margin: 15px;
 }
