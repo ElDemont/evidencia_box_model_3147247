@@ -1,0 +1,55 @@
+
+/*selector universal
+se ve aplicada a cada a todas las etiquetas*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.card{
+    border: black 5px ridge;
+    background-color: blueviolet;
+    width: 400px;
+    height: 500px;
+    padding: 60px 30px 20px 95px;
+    /*auto: sirve para distribuir la dimension al tamaño libre disponible del dispositivo*/
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+/*selector para hijo directo: >*/
+
+.card>img{
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-top: -50px;
+}
+
+/*selector de contenedor*/
+/*espacio=descendiente*/
+.card .contenedor{
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+.contenedor>h1{
+    display: block;
+    font-size: 24px;
+    text-align: left;
+
+}
+
+/*selector de hermano adyacente*/
+p + a{
+    display: block;
+    background-color: black;
+    width: 90px;
+    margin-top: 20px;
+    border-radius: 5px;
+    
+}
